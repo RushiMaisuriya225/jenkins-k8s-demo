@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE = "DOCKER_USER/demo-app:${BUILD_NUMBER}"
+    IMAGE = "rushimaisuriya/demo-app:${BUILD_NUMBER}"
   }
   stages {
     stage('Checkout') {
